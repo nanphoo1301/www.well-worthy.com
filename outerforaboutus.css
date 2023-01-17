@@ -1,0 +1,163 @@
+    @keyframes bounce{
+      0%{ transform: translate(0px , 0px); }
+      50%{ transform: translate(0px , 50px); }
+      100%{transform: translate(0px , 0px);}
+    }
+
+    *{
+      box-sizing: border-box;
+    }
+
+    .headerimg{
+      background-image: url(PBL/pixel.png);
+      box-shadow: 0 0 8px 8px white inset;
+      font-size: 20px;
+      color: white;
+      font-family: Kristen itc;
+      font-weight: bold;
+      text-align: center;
+      padding-bottom: 5px;
+      text-shadow: 0 0 .8em white;
+    }
+
+    #img{
+      width: 50%;
+      padding-top: 6px;
+      padding-right: 10px;
+      padding-left: 2px;
+    }
+
+    .members{
+      width: 100%;
+    }
+
+    .wintkay:hover, .hsuhtet:hover, .alinkar:hover, .nanphoo:hover{
+      box-shadow: 0 0 4px 4px black;
+    }
+
+    .wintkay{
+      font-family:New Century Schoolbook;
+      background-color: #95c9ad;
+      float: left;      
+      text-align: center;
+      padding-top: 20px;
+     border-radius: 20px;
+     box-shadow: 0 0 4px 4px #5b856e;
+     margin-top: 2px;
+     animation: bounce;
+     animation-duration: 11s;
+    }
+
+     .hsuhtet{
+      font-family:New Century Schoolbook;
+      float: left;
+      background-color: #95c9ad;
+      text-align: center;
+      padding-top: 19px;
+      border-radius: 20px;
+      box-shadow: 0 0 4px 4px #5b856e;
+      animation: bounce;
+      animation-duration: 10s;
+    }
+
+     .alinkar{
+      font-family:New Century Schoolbook;
+      float: left;
+      background-color: #95c9ad;
+      text-align: center;
+      margin-top: 10px;
+      padding-top: 19px;
+      border-radius: 20px;
+      box-shadow: 0 0 4px 4px #5b856e;
+      animation: bounce;
+      animation-duration: 11s;
+    }
+
+     .nanphoo{
+      font-family:New Century Schoolbook;
+      float: left;
+      background-color: #95c9ad;
+      text-align: center;
+      padding-top: 19px;
+      border-radius: 20px;
+      box-shadow: 0 0 4px 4px #5b856e;
+      animation: bounce;
+      animation-duration: 10s;
+    }
+
+    .forsignup{
+      background-image: url(PBL/su.png);
+    }
+
+    .forsignu{
+      background-color: ghostwhite;
+      height: 50px;
+      margin-left: 850px;
+      border-radius: 30px;
+      text-align: center;
+      color: #8b948f;
+      margin-top: 50px;
+    }
+
+.footerforaboutus{
+  background-color: #8b948f;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.jan{
+    float: left;
+    background-color: #5b856e;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+
+#fb1{
+  width: 30px;
+  display: block;
+}
+
+#ig1{
+  width: 35px;
+  padding-top: 10px;
+  display: block;
+}
+
+#tt1{
+  width: 40px;
+  padding-top: 5px;
+  display: block;
+}
+
+.feb{
+     text-align: center;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.mar{
+     text-align: center;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.apr{
+     text-align: center;
+     margin-top: 30px;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.footerforaboutus a{
+  color: white;
+}

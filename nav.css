@@ -1,0 +1,118 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+ font-family:
+ Arial,
+ Helvetica,
+ sans-serif;
+}
+
+.bar a{
+	color: floralwhite;
+	text-decoration: none;
+	font-size: 17px;
+  float: left;
+  text-align: center;
+}
+
+
+.navbar{
+	float: left;
+	margin-left: 1000px;
+}
+
+.nav{
+  position:fixed;
+  width:100%;
+  background-color: mediumvioletred;
+  font-family: New Century Schoolbook;
+   z-index: 1;
+}
+
+.navbar a{
+  text-decoration:none;
+  padding:10px;
+  color: #fff;
+  font-family: New Century Schoolbook;
+}
+
+.media {
+	float: right;
+}
+
+#fb{
+	width: 30px;
+	padding-top: 5px;
+}
+
+#ig{
+	width: 35px;
+	padding-top: 2px;
+}
+
+#tt{
+	width: 40px;
+	padding-top: 5px;
+}
+
+.bar a:hover {background-color:#ddd ;color: black;}
+
+.bar a.active {color:floralwhite;}
+
+.topnav a {
+	color: black;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 17px;
+	float: left;
+}
+
+.topnav a:hover {color: mediumvioletred; font-size: 20px;}
+
+.navigation{
+  position:fixed;
+  width:100%;
+  background-color: floralwhite;
+  z-index: 2;
+  font-family: New Century Schoolbook;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,5);
+
+}
+
+.navbar-left{
+  float: left;
+  padding-top:40px;
+}
+
+.navbar-left a{
+  text-decoration:none;
+  padding:10px;
+  color: black;
+  font-family: New Century Schoolbook;
+}
+
+.navbar-right{
+	float: right;
+	margin-top: 37px;
+}
+
+#img{
+	width: 20px; 
+  margin-left: 200px; 
+}
+
+#placeholder{
+	width: 300px;
+	margin-top: 13px;
+}
+
+.vid{
+width:100%;
+height:100%;
+overflow: hidden;
+position: absolute;
+}

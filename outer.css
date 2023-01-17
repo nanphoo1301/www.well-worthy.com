@@ -1,0 +1,156 @@
+*{
+	box-sizing: border-box;
+}
+    @keyframes colors{
+            0%{ background-color: #7bb896; }
+            20%{ background-color: #507d64; }
+            40%{ background-color: #354a3e; }
+            60%{ background-color: #236942; }
+            80%{  background-color: #4aa171 ; }
+            100%{ background-color: #7bb896; }
+            
+        }
+
+a{
+     color: black;
+     text-decoration: none;
+
+}
+a:hover{
+        color: black;
+         font-size: 10;
+
+
+}
+.signup:hover{
+    width: 81.66%;
+    height: 170px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,5);
+    animation-name: colors;
+    animation-duration: 20s;
+}
+.Login:hover{
+    width: 81.66%;
+    height: 170px;
+    box-shadow: 0 2px 4px 0 rgba(5,5,5,5);
+    animation-name: colors;
+    animation-duration: 20s;
+
+}
+
+.pic{
+    background-image: url(PBL/account.gif);
+    text-shadow: 0 0 .8em white;
+    box-shadow: 0 0 8px 8px white inset;
+    color: white;
+   font-weight: bold;
+   text-align: center;
+}
+
+.signup{
+   text-shadow: 0 0 .8em black;
+   background-color: #86a393;
+   height: 150px;
+   box-shadow: 0 0 8px 8px white inset;
+   font-size: 50px;
+   margin-top:50px;
+   font-family: Kristen itc;
+   font-weight: bold;
+   text-align: center;
+   padding-bottom: 5px;
+   padding-top: 40px;
+
+}
+#su{
+   font-size: 50px;
+   margin-top: 10px;
+   font-family: Kristen itc;
+   font-weight: bold;
+   text-align: center;
+   padding-bottom: 5px;
+}
+.Login{
+   text-shadow: 0 0 .8em black;
+   box-shadow: 0 0 6px 6px white inset;
+   background-color: #86a393;
+   height: 150px;
+   font-size: 50px;
+   margin-top: 10px;
+   font-family: Kristen itc;
+   font-weight: bold;
+   text-align: center;
+   padding-bottom: 5px;
+   padding-top: 40px;
+}
+
+#lg{
+   font-size: 50px;
+   margin-top: 10px;
+   font-family: Kristen itc;
+   font-weight: bold;
+   text-align: center;
+   padding-bottom: 5px;
+}
+
+.footerforaccount{
+  background-color: #8b948f;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.jan{
+    float: left;
+    background-color: #5b856e;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+
+#fb1{
+  width: 30px;
+  display: block;
+}
+
+#ig1{
+  width: 35px;
+  padding-top: 10px;
+  display: block;
+}
+
+#tt1{
+  width: 40px;
+  padding-top: 5px;
+  display: block;
+}
+
+.feb{
+     text-align: center;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.mar{
+     text-align: center;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.apr{
+     text-align: center;
+     margin-top: 30px;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.footerforaccount a{
+  color: white;
+}

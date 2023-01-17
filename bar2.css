@@ -1,0 +1,334 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: Century Gothic;
+}
+
+a{
+	color: white;
+}
+
+.upper{
+	background-color: #86a393;
+	position: fixed;
+	z-index: 2;
+}
+
+.upper a:hover{
+  background-color: #aaadab;
+  border-radius: 10px;
+}
+
+.navbar{
+	float: right;
+}
+
+.navbar ul li{
+	display: inline;
+	padding: 5px;
+
+}
+
+.navbar ul li a{
+	display: inline;
+	padding: 5px;
+	color: white;
+
+}
+
+.media{
+	float: left;
+}
+
+#fb{
+	width: 16.66%;
+	float: left;
+	padding-top: 8px;
+}
+
+#ig{
+	width: 16.66%;
+	float: left;
+	padding-top: 10px;
+	
+}
+
+#tt{
+	width: 25%;
+	float: left;
+	padding-top: 5px;
+	
+}
+
+.lower{
+	background-color: background-color: hsla(0, 0%, 95%, 0.3);
+	box-shadow: 1px 8px 8px 0 rgba(0, 0, 0, .1);
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.lower ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	display: block;
+}
+
+.lower ul a{
+	display: block;
+	padding: 20px;
+}
+
+.lower ul a:hover{
+	background-color: #696868;
+	border-radius: 10px;
+}
+
+.lower ul a.active{
+	background-color: #a3b8a9;
+	border-radius: 10px;
+	color: white;
+}
+
+.lower .logo{
+	float: left;
+	display: block;
+	padding: 10px 20px;
+}
+
+#logo{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.lower .left{
+	clear: both;
+	max-height: 0;
+	transition: max-height .2s ease-out;
+}
+
+.lower .menu-icon{
+	padding: 28px 20px;
+	position: relative;
+	float: right;
+	cursor: pointer;
+}
+
+.lower .menu-icon .nav-icon{
+	background-color: #86a393;
+	display: block;
+	height: 5px;
+	width: 50px;
+	position: relative;
+	transition: background .2s ease-out;
+	margin-top: 25px;
+}
+
+.lower .menu-icon .nav-icon:before{
+	background: #86a393;
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transition: all .2 ease-out;
+	top: 10px;
+}
+
+.lower .menu-icon .nav-icon:after{
+	background: #86a393;
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transition: all .2 ease-out;
+	top: -10px;
+}
+
+.lower .menu-btn{
+	display: none;
+}
+
+.lower .menu-btn:checked ~ .left{
+	max-height: 400px;
+}
+
+.lower .menu-btn:checked ~ .menu-icon .nav-icon{
+  background: transparent;
+}
+
+.lower .menu-btn:checked ~ .menu-icon .nav-icon:before{
+	transform: rotate(-45deg);
+	top: 0;
+}
+
+.lower .menu-btn:checked ~ .menu-icon .nav-icon:after{
+	transform: rotate(45deg);
+	top: 0;
+}
+
+
+/**{
+	box-sizing: border-box;
+}
+
+ul{
+	list-style: none;
+}
+
+#lifornavbar{
+	display: inline-flex;
+	padding-right: 10px;
+	color: white;
+	font-family: Century Gothic;
+	font-size: 13px;
+	text-align: center;
+}
+
+#lifornavbar-left{
+	display: inline;
+	padding-right: 7px;
+	font-family: Century Gothic;
+}
+
+body {
+ margin: 0;
+ font-family:
+ Arial,
+ Helvetica,
+ sans-serif;
+}
+
+.bar a{
+	color: floralwhite;
+	text-decoration: none;
+	font-size: 17px;
+  float: left;
+  text-align: center;
+}
+
+
+.navbar{
+	float: left;
+	margin-left: 1000px;
+	padding-left: 70px;
+}
+
+.nav{
+  position:fixed;
+  width:100%;
+  background-color: #86a393;
+  font-family: New Century Schoolbook;
+   z-index: 2;
+  height: 40px;
+}
+
+.navbar a{
+  text-decoration:none;
+  color: #fff;
+  font-family: New Century Schoolbook;
+}
+
+.media{
+	float: right;
+	position: fixed;
+}
+
+#fb{
+	width: 30px;
+	padding-top: 5px;
+}
+
+#ig{
+	width: 35px;
+	padding-top: 2px;
+}
+
+#tt{
+	width: 40px;
+	padding-top: 5px;
+}
+
+.bar a:hover {background-color:#ddd ;color: black; height: 30px;}
+
+.bar a.active {color:floralwhite;}
+
+.bar a{float: left;}
+
+.topnav a {
+	color: white;
+	text-align: center;
+  padding: 15px;
+	text-decoration: none;
+	font-size: 17px;
+	float: left;
+	font-family: Century Gothic;
+}
+
+.topnav a:hover {color: #6c8778; font-size: 19px;}
+
+.navigation{
+  position:fixed;
+  width:100%;
+  background-color: hsla(0, 0%, 95%, 0.3);
+  z-index: 2;
+  font-family: Century Gothic;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,5);
+
+}
+
+
+.topnav{
+   float: left;
+   width: 100%;
+}
+
+.navbar-logo{
+    float: left;
+}
+
+.navbar-left{
+   float: right;
+   width: 75%;
+   margin-top: 30px;
+   margin-left: 30px;
+   padding-left: 65px;
+   
+}
+
+
+.navbar-left a{
+  text-decoration:none;
+  padding:10px;
+  color: white;
+  font-family: Century Gothic;
+}
+
+.navbar-left a:hover {
+	background-color: hsla(0, 0%, 50%, 0.5);
+	color: ghostwhite;
+	height: 50px;
+}
+
+
+
+#img{
+	width: 20px; 
+}
+
+#placeholder{
+	width: 300px;
+	margin-top: 13px;
+}
+
+#logo{
+	width: 100%;
+	float: left;
+	padding-left: 15px;
+}*/

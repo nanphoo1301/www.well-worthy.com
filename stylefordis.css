@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.dis{
+	background-image: url(PBL/dis.gif);
+	box-shadow: 0 0 8px 8px white inset;
+	font-size: 20px;
+    color: white;
+    font-family: Century Gothic;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 .8em white;
+}
+
+.cover{
+	height: 500px;
+	/*background:#000;*/
+}
+h2,p{
+	text-align: center;
+}
+.box:hover{
+	box-shadow: 2px 2px 26px 0px green;
+	padding: 15px;
+}
+
+.box1:hover{
+	box-shadow: 2px 2px 26px 0px green;
+	padding: 15px;
+}
+
+.box2:hover{
+	box-shadow: 2px 2px 26px 0px green;
+	padding: 15px;
+}
+
+.box1, .box2, .box{
+	float: left;
+	background-color: #bee8c0 ;
+	border-radius: 30px;
+}
+
+img{
+	max-width: 250px;
+	max-height: 250px;
+}
+.donatee:hover{
+    box-shadow: 0 2px 4px 0 rgba(5,5,5,5);
+
+
+}
+.donatee{
+	background-color: #86a393;
+	color: white;
+	padding: 15px 25px;
+	text-decoration: none;
+	border-radius: 30px;
+}
+
+.footerfordis{
+  background-color: #8b948f;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.jan{
+    float: left;
+    background-color: #5b856e;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+
+#fb1{
+  width: 30px;
+  display: block;
+}
+
+#ig1{
+  width: 35px;
+  padding-top: 10px;
+  display: block;
+}
+
+#tt1{
+  width: 40px;
+  padding-top: 5px;
+  display: block;
+}
+
+.feb{
+     text-align: center;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.mar{
+     text-align: center;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.apr{
+     text-align: center;
+     margin-top: 30px;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+#comment{
+  float: left;
+  margin-top: 100px;
+  margin-left: 190px;
+  width: 300px;
+  text-align: center;
+}
+
+
+#small{ 
+  width: 80px;
+    height: 30px; 
+    background-color: ghostwhite;
+    border: 2px solid #5b856e;  
+    border-radius:7px; 
+    font-family: Century Gothic ;
+    color: #5b856e;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+#comment{
+  float: left;
+  margin-top: 100px;
+  margin-left: 190px;
+  width: 300px;
+  text-align: center;
+}
+
+
+#small{ 
+  width: 80px;
+    height: 30px; 
+    background-color: ghostwhite;
+    border: 2px solid #5b856e;  
+    border-radius:7px; 
+    font-family: Century Gothic ;
+    color: #5b856e;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.footerfordis a{
+  color: white;
+}

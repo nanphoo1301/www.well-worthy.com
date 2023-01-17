@@ -1,0 +1,288 @@
+*{
+	box-sizing: border-box;
+}
+
+p{
+	color: #66de9c;
+}
+
+h1{
+   text-align: center;
+   color: #fa7d69;
+   font-family: Century Gothic;
+   text-decoration: none;
+   font-size: 25px;
+}
+
+h2{
+	text-align: center;
+	color: #077036;
+	font-family: Century Gothic;
+	text-decoration: none;
+}
+
+#h1{
+   	text-align: center;
+	color: #de6d0b;
+	font-family: New Century Schoolbook;
+	text-decoration: none;
+}
+#c{
+	text-align: center;
+	color: #e38b19;
+	font-family: Century Gothic;
+	text-decoration: none;
+	padding-top: 35px;
+}
+
+h4{
+	text-align: center;
+	color: #79b38a;
+	font-family: Century Gothic;
+	text-decoration: none;
+}
+
+h3{
+	text-align: center;
+	color: white;
+	font-family: Century Gothic;
+	text-decoration: none;
+}
+
+#h3{
+	text-align: center;
+	color: ghostwhite;
+	font-family: Century Gothic;
+	text-decoration: none;
+}
+
+#h4{
+    text-align: center;
+	color: #f6dcfc;
+	font-family: Century Gothic;
+	text-decoration: none;
+}
+
+#h44{
+    text-align: center;
+	color: #c6f5db;
+	font-family: Century Gothic;
+	text-decoration: none;
+	text-shadow: 0 0 .8em black;
+}
+
+.one{
+	background-image: url(PBL/greenn.gif);
+	box-shadow: 0 0 8px 8px white inset;
+	font-size: 20px;
+    color: white;
+    font-family: Century Gothic;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 .8em white;
+}
+
+.show{
+   margin-top: 10px;
+   border-radius: 20px;
+   background-color: #a4bfb0;
+   font-family: Century Gothic;
+   padding-top: 10px;
+   text-decoration: none;
+}
+
+.d{
+	background-color: #c9ccc2;
+	border-radius: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+.v{
+	background-color: #c9ccc2;
+	border-radius: 20px;
+   margin-top: 20px;
+	float: left;
+}
+
+
+.f{
+	background-color: #c9ccc2;
+	margin-top: 20px;
+	border-radius: 20px;
+	float: left;
+}
+
+.a{
+	background-color: #c9ccc2;
+	margin-top: 20px;
+	border-radius: 20px;
+	float: left;
+}
+
+.d:hover, .v:hover, .f:hover, .a:hover{
+	box-shadow: 0 0 4px 4px #86a393; inset;
+}
+
+
+#d{
+	width: 83.33%;
+    margin-left: 30px;
+}
+
+#v{
+	width: 83.33%;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+#f{
+	width: 83.33%;
+    margin-left: 40px;
+}
+
+#a{
+	width: 83.33%;
+    margin-left: 20px;
+}
+
+
+
+.two{
+	background-image: url(PBL/grey.jpg);
+	box-shadow: 0 0 8px 8px white inset;
+	font-size: 20px;
+    color: #9e005f;
+    font-family: Kristen itc;
+    font-weight: bold;
+    text-align: center;
+    height: 150px;
+    text-shadow: 0 0 .8em white;
+}
+
+.idea{
+   padding-top: 50px;
+   background-color: #f7d7d2;
+   color: white;
+}
+
+.search{
+   height: 50px;
+   text-align: center;
+   border: 5px solid #ed9b8e;
+   border-radius: 30px;
+   font-size: 17px;
+   font-weight: bold;
+   padding-bottom: 15px;
+}
+
+
+.send{
+   margin-top: 30px;
+    height: 50px; 
+    background-color: ghostwhite;
+    border: 5px solid #dba7a7;  
+    border-radius:7px; 
+    font-size:20px;
+    font-family: Century Gothic;
+    font-weight: bolder;
+    color: #dba7a7;
+    border-radius: 30px;
+}
+
+.cause{
+	background-color: lightgoldenrodyellow;
+	color: white;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.an, .di, .el, .en{
+	height: 150px;
+	background-color: #f7dd9e;
+	border-radius: 20px;
+	float: left;
+}
+
+@keyframes causes{
+	0%     {background-color: #f7dd9e;}
+	33.33% { background-color: lightpink;}
+	66.66% { background-color: palevioletred; }
+
+ }
+}
+
+.an, .di, .el, .en{
+	animation-name: causes;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+}
+
+.an:hover, .di:hover, .el:hover, .en:hover{
+    box-shadow: 0 0 18px 5px #de6d0b;
+}
+
+.footerforhome{
+  background-color: #8b948f;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.jan{
+    float: left;
+    background-color: #5b856e;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+
+#fb1{
+  width: 30px;
+  display: block;
+}
+
+#ig1{
+  width: 35px;
+  padding-top: 10px;
+  display: block;
+}
+
+#tt1{
+  width: 40px;
+  padding-top: 5px;
+  display: block;
+}
+
+.feb{
+     text-align: center;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.mar{
+     text-align: center;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.apr{
+     text-align: center;
+     margin-top: 30px;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.footerforhome a{
+  color: white;
+}

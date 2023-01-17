@@ -1,0 +1,509 @@
+*{
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: ghostwhite;
+}
+
+p{
+	color: #66de9c;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-family: Century Gothic;
+	text-decoration: none;
+	text-shadow: 0 0 .8em black inset;
+}
+
+h2{
+	text-align: center;
+	color: #077036;
+	font-family: Century Gothic;
+	text-decoration: none;
+}
+
+#h1{
+   	text-align: center;
+	color: #304d38;
+	font-family: Century Gothic;
+	text-decoration: none;
+}
+#c{
+	text-align: center;
+	color: #e38b19;
+	font-family: Century Gothic;
+	text-decoration: none;
+	padding-top: 35px;
+}
+
+h4{
+	text-align: center;
+	color: #79b38a;
+	font-family: Kristen itc;
+	text-decoration: none;
+}
+
+h3{
+	text-align: center;
+	color: #304d38;
+	font-family: Century Gothic;
+	text-decoration: none;
+}
+
+#h3{
+	text-align: center;
+	color: ghostwhite;
+	font-family: Century Gothic;
+	text-decoration: none;
+}
+
+#h4{
+    text-align: center;
+	color: #f6dcfc;
+	font-family: Century Gothic;
+	text-decoration: none;
+}
+
+#h44{
+    text-align: center;
+	color: #c6f5db;
+	font-family: Century Gothic;
+	text-decoration: none;
+	text-shadow: 0 0 .8em black;
+}
+
+#hd{
+   	text-align: left;
+	color: #304d38;
+	font-family: Century Gothic;
+	text-decoration: none;
+	padding-left: 0px;
+}
+
+#h22{
+	font-family: Century Gothic;
+	text-align: left;
+	color: gray;
+	padding-left: 10px;
+}
+
+
+
+.cap{
+	background-image: url(PBL/grenn.gif);
+	box-shadow: 0 0 8px 8px white inset;
+	font-size: 20px;
+    color: white;
+    font-family: Century Gothic;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 .8em white;
+}
+
+.content{
+	background-color: #a5c9af;
+	margin-top: 10px;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+.searchbar{
+	background-color: #aaadab;
+	margin-top: 20px;
+	font-size: 10px;
+	padding-top: 20px;
+}
+
+option{
+	font-size: 15px;
+	font-family: Century Gothic;
+}
+
+.gender{
+	float: left;
+	margin-top: 10px;
+}
+
+#gender{
+	height: 40px;
+}
+
+.breed{
+	float: left;
+	margin-top: 10px;
+	
+}
+
+#breed{
+	height: 40px;
+}
+
+.age{
+	float: left;
+	margin-top: 10px;
+	
+}
+
+#age{
+	height: 40px;
+}
+
+
+.searchh{
+	float: right;
+}
+
+#searchh{
+	width: 250%;
+	height: 40px;
+	font-size: 18px;
+	font-family: Century Gothic;
+}
+
+.clear{
+	float: right;
+}
+
+#clear{
+	width: 250%;
+	height: 40px;
+	font-size: 18px;
+	font-family: Century Gothic;
+}
+.area{
+	margin-top: 10px;
+}
+
+#pp{
+	font-family: Century Gothic;
+	color: #748279;
+	font-weight: bold;
+	text-align: center;
+    font-size: 15px;
+}
+
+#ppp{
+	font-family: Century Gothic;
+	color: #748279;
+	font-weight: bolder;
+	text-align: center;
+    font-size: 20px;
+}
+
+.adoptform{
+	background-color: grey;
+	border-radius: 10px;
+	text-decoration: none;
+	height: 30px;
+	padding-top: 4px;
+	padding-left: 3px;
+	text-align: center;
+	font-family: Century Gothic;
+}
+
+.adoptform:hover{
+	background-color: grey;
+	border-radius: 10px;
+	text-decoration: none;
+	padding-left: 3px;
+	text-align: center;
+	font-family: Century Gothic;
+	box-shadow: 0 0 8px 2px white inset;
+}
+
+.saicookie{
+	background-color: #e3e3e3;
+	height: 250px;
+	border-radius: 10px;
+	margin-top: 50px;
+	float: left;
+	box-shadow: 0 0 10px 3px black inset;
+}
+
+#not{
+	background-color: grey;
+	height: 20px;
+	font-family: Century Gothic;
+	color: floralwhite;
+	text-align: center;
+}
+
+#saicookie{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+}
+
+
+
+.chewie{
+	background-color: #e3e3e3;
+	height: 250px;
+	margin-top: 50px;
+	border-radius: 10px;
+	float: left;
+	box-shadow: 0 0 10px 3px black inset;
+}
+
+
+#chewie{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.max{ 
+	background-color: #e3e3e3;
+	height: 250px;
+	border-radius: 10px;
+	margin-top: 50px;
+	float: left;
+	box-shadow: 0 0 10px 3px black inset;
+}
+
+
+#max{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.nawalboe{
+	background-color: #e3e3e3;
+	height: 250px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 50px;
+	box-shadow: 0 0 10px 3px black inset;
+}
+
+
+#alboe{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.nannora{
+	background-color: #e3e3e3;
+	height: 250px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 50px;
+	box-shadow: 0 0 10px 3px black inset;
+}
+
+
+#nora{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.gongyang{
+	background-color: #e3e3e3;
+	height: 250px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 50px;
+	box-shadow: 0 0 10px 3px black inset;
+}
+
+
+#yang{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.bumbum{
+	background-color: #e3e3e3;
+	height: 250px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 50px;
+	box-shadow: 0 0 10px 3px black inset;
+}
+
+
+#bum{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.miphyu{
+	background-color: #e3e3e3;
+	height: 250px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 50px;
+	box-shadow: 0 0 10px 3px black inset;
+}
+
+
+#mi{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.guanjun{
+	background-color: #e3e3e3;
+	height: 250px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 50px;
+	box-shadow: 0 0 10px 3px black inset;
+}
+
+
+#jun{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.baozhu{
+	background-color: #e3e3e3;
+	height: 250px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 50px;
+	box-shadow: 0 0 10px 3px black inset;
+}
+
+
+#zhu{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.bingbing{
+	background-color: #e3e3e3;
+	height: 250px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 50px;
+	box-shadow: 0 0 10px 3px black inset;
+}
+
+
+#bing{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.BaoBao{
+	background-color: #e3e3e3;
+	height: 250px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 50px;
+	box-shadow: 0 0 10px 3px black inset;
+}
+
+
+#bao{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.backfordog{
+	background-color: #7f877e;
+	height: 50px;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 40px;
+	font-family: Century Gothic;
+	color: #163612;
+	float: left;
+}
+
+
+
+.nextfordog{
+	background-color: #7f877e;
+	height: 50px;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 40px;
+	font-family: Century Gothic;
+	color: #163612;
+	float: right;
+}
+
+
+.footerfordog{
+  background-color: #8b948f;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.jan{
+    float: left;
+    background-color: #5b856e;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+
+#fb1{
+  width: 30px;
+  display: block;
+}
+
+#ig1{
+  width: 35px;
+  padding-top: 10px;
+  display: block;
+}
+
+#tt1{
+  width: 40px;
+  padding-top: 5px;
+  display: block;
+}
+
+.feb{
+     text-align: center;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.mar{
+     text-align: center;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.apr{
+     text-align: center;
+     margin-top: 30px;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+
+
+.footerfordog a{
+  color: white;
+}

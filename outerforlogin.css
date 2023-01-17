@@ -1,0 +1,123 @@
+
+  h2{
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+  }
+
+  p{
+    font-size: 60px;
+    color: #5b856e;
+  }
+
+  p.sg{
+    font-size: 30px;
+    color: #5b856e;
+    font-family: New Century Schoolbook;
+    margin-bottom: 20px;
+  
+  }
+  p.sg:hover{
+    color: #585c5a;
+    font-size: 35px;
+  }
+    
+  .pic4{
+    background-image: url(PBL/login.gif);
+    text-shadow: 0 0 .8em white;
+    box-shadow: 0 0 8px 8px white inset;
+    font-size: 20px;
+   color: white;
+   font-family: Century Gothic;
+   font-weight: bold;
+   text-align: center;
+   padding-bottom: 5px;
+  }
+
+  .form{
+   text-align: center;
+   padding-top: 70px;
+   border: 5px solid #95c9ad;
+   box-shadow: 0 0 4px 4px #5b856e inset;
+  }
+
+  a.backk{
+    color: white;
+    font-size: 25px;
+    background-color: #5b856e;
+    border-radius: 10px;
+    float: left;
+    padding: 10px;
+  }
+
+ .footerforlogin{
+  background-color: #8b948f;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.footerfordog{
+  background-color: #8b948f;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.jan{
+    float: left;
+    background-color: #5b856e;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+
+#fb1{
+  width: 30px;
+  display: block;
+}
+
+#ig1{
+  width: 35px;
+  padding-top: 10px;
+  display: block;
+}
+
+#tt1{
+  width: 40px;
+  padding-top: 5px;
+  display: block;
+}
+
+.feb{
+     text-align: center;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.mar{
+     text-align: center;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.apr{
+     text-align: center;
+     margin-top: 30px;
+     float: left;
+     background-color: #5b856e;
+     border-radius: 30px;
+     padding-bottom: 10px;
+}
+
+.footerforlogin a{
+  color: white;
+}
