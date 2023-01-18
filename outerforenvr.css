@@ -59,10 +59,20 @@ select{
 	margin-right: 200px;
 
 }
+.donateforenv{
+    background-color: #86a393;
+    text-align: center;
+    border-radius: 15px;
+    width: 66.66%;
+    height: 15%;
+    padding-top: 10px;
+    margin-top: 10px;
 
-.donate{
-	color: #5b856e;
-	font-size: 19px;
+}
+
+.donateforenv:hover{
+    width: 75%;
+    height: 15%;
 }
 
 
