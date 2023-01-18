@@ -63,7 +63,7 @@ select{
     background-color: #86a393;
     text-align: center;
     border-radius: 15px;
-    width: 91.66%;
+    width: 75%;
     height: 15%;
     padding-top: 10px;
     margin-top: 10px;
@@ -71,7 +71,7 @@ select{
 }
 
 .donateforenv:hover{
-    width: 100%;
+    width: 83.33%;
     height: 15%;
 }
 
