@@ -71,8 +71,7 @@ select{
 }
 
 .donateforenv:hover{
-    width: 83.33%;
-    height: 15%;
+    box-shadow: 0 0 4px 4px #5b856e;
 }
 
 
