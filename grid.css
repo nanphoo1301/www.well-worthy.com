@@ -573,6 +573,11 @@
  #submit{
   margin-left: 150px;
  }
+  
+ .donateforenv{
+    margin-left: 50px;
+    padding-top: 30px;
+  }
 
   /*For fn.html*/
   .picforfundraise{
@@ -1205,9 +1210,10 @@
   margin-left: 250px;
  }
 
- .donate{
-  margin-left: 100px;
- }
+ .donateforenv{
+    margin-left: 70px;
+    padding-top: 30px;
+  }
 
  /*For fn.html*/
   .picforfundraise{
@@ -1979,7 +1985,8 @@
   }
 
   .donateforenv{
-    margin-left: 100px;
+    margin-left: 150px;
+    padding-top: 30px;
   }
 
   /*For fn.html*/
