@@ -257,26 +257,32 @@
 
   .gender{
     margin-left: 180px;
+    display: none;
   }
 
   #breed{
     margin-left: 120px;
+    display: none;
   }
 
   #h111{
     margin-left: 150px;
+    display: none;
   }
 
   #h1111{
     margin-left: 150px;
+    display: none;
   }
 
   #age{
     margin-left: 140px;
+    display: none;
   }
 
   .searchbar{
     height: 400px;
+    display: none;
   }
 
 
@@ -290,6 +296,7 @@
   .clear{
     margin-right: 240px;
     margin-top: 30px;
+    display: none;
   }
 
   /*For dog.html*/
@@ -918,6 +925,7 @@
   .clear{
     display: none;
   }
+  
 
   /*For Dog.html*/
 
