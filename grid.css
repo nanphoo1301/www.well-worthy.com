@@ -1316,7 +1316,7 @@
 }
 
 /* For desktop view */
-@media only screen and (max-width: 2000px) {
+@media only screen and (min-width: 1200px) {
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
@@ -1423,87 +1423,87 @@
     }
 
     .footerforaboutus{
-        height: 250px;
+        height: 350px;
         margin-top: 30px;
     }
 
      .footerforhome{
-        height: 250px;
+        height: 350px;
         margin-top: 30px;
     }
 
     .footerforadopt{
-        height: 250px;
+        height: 350px;
         margin-top: 30px;
     }
 
     .footerfordog{
-      height: 250px;
+      height: 350px;
       margin-top: 1300px;
     }
 
     .footerforcat{
-      height: 250px;
+      height: 350px;
       margin-top: 1300px;
     }
 
     .footerforaccount{
-      height: 250px;
+      height: 350px;
       margin-top: 30px;
     }
 
     .footerforsignup{
-      height: 250px;
+      height: 350px;
       margin-top: 100px;
     }
 
     .footerforlogin{
-      height: 250px;
+      height: 350px;
       margin-top: 30px;
     }
 
     .footerforadoptform{
-      height: 250px;
+      height: 350px;
       margin-top: 30px;
     }
 
     .footerfordonatetdy{
-      height: 250px;
+      height: 350px;
       margin-top: 1000px;
     }
 
     .footerforenvironment{
-      height: 250px;
+      height: 350px;
       margin-top: 30px;
     }
 
     .footerforfn{
-      height: 250px;
+      height: 350px;
       margin-top: 30px;
     }
 
     .footerforfaq{
-      height: 250px;
+      height: 350px;
       margin-top: 30px;
     }
 
     .footerforcus{
-      height: 250px;
+      height: 350px;
       margin-top: 30px;
     }
 
     .footerfordis{
-      height: 250px;
+      height: 350px;
       margin-top: 30px;
     }
 
     .footerforelderly{
-      height: 250px;
+      height: 350px;
       margin-top: 150px;
     }
 
     .footerfordtform{
-      height: 250px;
+      height: 350px;
       margin-top: 30px;
     }
 
